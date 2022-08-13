@@ -1,0 +1,14 @@
+=REQUEST-BEGIN=
+CREATE 12, 7A, Noel Bao, Taipei, Zuoying
+CREATE 12, 7B, Noah Bao, Taipei, Zuoying
+CREATE 12, 7C, Peter Bao, Taipei, Zuoying
+CREATE 12, 7A, Zeck Chang, Taoyuan, Tainan
+DELETE 12, 7C, Peter Bao, Taipei, Zuoying
+CREATE 12, 7C, Peter Bao, Taipei, Taichung
+CREATE 12, 7C, Greg Wang, Taichung, Zuoying
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT 12, 7C, Peter Bao
+LOOK-SEAT 12, 7C, Greg Wang
+=REPORT-FORM-END=

@@ -1,0 +1,105 @@
+=REQUEST-BEGIN=
+CREATE 1, 1A, 1 1, Taipei, Zuoying
+CREATE 1, 1B, 1 1, Taipei, Zuoying
+CREATE 1, 1C, 1 1, Taipei, Zuoying
+CREATE 1, 1D, 1 1, Taipei, Zuoying
+CREATE 1, 1E, 1 1, Taipei, Zuoying
+CREATE 1, 2A, 1 1, Taipei, Zuoying
+CREATE 1, 2B, 1 1, Taipei, Zuoying
+CREATE 1, 2C, 1 1, Taipei, Zuoying
+CREATE 1, 2D, 1 1, Taipei, Zuoying
+CREATE 1, 2E, 1 1, Taipei, Zuoying
+CREATE 1, 3A, 1 1, Taipei, Zuoying
+CREATE 1, 3B, 1 1, Taipei, Zuoying
+CREATE 1, 3C, 1 1, Taipei, Zuoying
+CREATE 1, 3D, 1 1, Taipei, Zuoying
+CREATE 1, 3E, 1 1, Taipei, Zuoying
+CREATE 1, 4A, 1 1, Taipei, Zuoying
+CREATE 1, 4B, 1 1, Taipei, Zuoying
+CREATE 1, 4C, 1 1, Taipei, Zuoying
+CREATE 1, 4D, 1 1, Taipei, Zuoying
+CREATE 1, 4E, 1 1, Taipei, Zuoying
+DELETE 1, 1A, 1 1, Taipei, Zuoying
+DELETE 1, 1B, 1 1, Taipei, Zuoying
+DELETE 1, 1C, 1 1, Taipei, Zuoying
+DELETE 1, 1D, 1 1, Taipei, Zuoying
+DELETE 1, 1E, 1 1, Taipei, Zuoying
+DELETE 1, 2A, 1 1, Taipei, Zuoying
+DELETE 1, 2B, 1 1, Taipei, Zuoying
+DELETE 1, 2C, 1 1, Taipei, Zuoying
+DELETE 1, 2D, 1 1, Taipei, Zuoying
+DELETE 1, 2E, 1 1, Taipei, Zuoying
+DELETE 1, 3A, 1 1, Taipei, Zuoying
+DELETE 1, 3B, 1 1, Taipei, Zuoying
+DELETE 1, 3C, 1 1, Taipei, Zuoying
+DELETE 1, 3D, 1 1, Taipei, Zuoying
+DELETE 1, 3E, 1 1, Taipei, Zuoying
+DELETE 1, 4A, 1 1, Taipei, Zuoying
+DELETE 1, 4B, 1 1, Taipei, Zuoying
+DELETE 1, 4C, 1 1, Taipei, Zuoying
+DELETE 1, 4D, 1 1, Taipei, Zuoying
+DELETE 1, 4E, 1 1, Taipei, Zuoying
+CREATE 1, 1A, 1 1, Taipei, Zuoying
+CREATE 1, 1B, 1 1, Taipei, Zuoying
+CREATE 1, 1C, 1 1, Taipei, Zuoying
+CREATE 1, 1D, 1 1, Taipei, Zuoying
+CREATE 1, 1E, 1 1, Taipei, Zuoying
+CREATE 1, 2A, 1 1, Taipei, Zuoying
+CREATE 1, 2B, 1 1, Taipei, Zuoying
+CREATE 1, 2C, 1 1, Taipei, Zuoying
+CREATE 1, 2D, 1 1, Taipei, Zuoying
+CREATE 1, 2E, 1 1, Taipei, Zuoying
+CREATE 1, 3A, 1 1, Taipei, Zuoying
+CREATE 1, 3B, 1 1, Taipei, Zuoying
+CREATE 1, 3C, 1 1, Taipei, Zuoying
+CREATE 1, 3D, 1 1, Taipei, Zuoying
+CREATE 1, 3E, 1 1, Taipei, Zuoying
+CREATE 1, 4A, 1 1, Taipei, Zuoying
+CREATE 1, 4B, 1 1, Taipei, Zuoying
+CREATE 1, 4C, 1 1, Taipei, Zuoying
+CREATE 1, 4D, 1 1, Taipei, Zuoying
+CREATE 1, 4E, 1 1, Taipei, Zuoying
+DELETE 1, 1A, 1 1, Taipei, Zuoying
+DELETE 1, 1B, 1 1, Taipei, Zuoying
+DELETE 1, 1C, 1 1, Taipei, Zuoying
+DELETE 1, 1D, 1 1, Taipei, Zuoying
+DELETE 1, 1E, 1 1, Taipei, Zuoying
+DELETE 1, 2A, 1 1, Taipei, Zuoying
+DELETE 1, 2B, 1 1, Taipei, Zuoying
+DELETE 1, 2C, 1 1, Taipei, Zuoying
+DELETE 1, 2D, 1 1, Taipei, Zuoying
+DELETE 1, 2E, 1 1, Taipei, Zuoying
+DELETE 1, 3A, 1 1, Taipei, Zuoying
+DELETE 1, 3B, 1 1, Taipei, Zuoying
+DELETE 1, 3C, 1 1, Taipei, Zuoying
+DELETE 1, 3D, 1 1, Taipei, Zuoying
+DELETE 1, 3E, 1 1, Taipei, Zuoying
+DELETE 1, 4A, 1 1, Taipei, Zuoying
+DELETE 1, 4B, 1 1, Taipei, Zuoying
+DELETE 1, 4C, 1 1, Taipei, Zuoying
+DELETE 1, 4D, 1 1, Taipei, Zuoying
+DELETE 1, 4E, 1 1, Taipei, Zuoying
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT 1, 1A, 1 1
+LOOK-SEAT 1, 1B, 1 1
+LOOK-SEAT 1, 1C, 1 1
+LOOK-SEAT 1, 1D, 1 1
+LOOK-SEAT 1, 1E, 1 1
+LOOK-SEAT 1, 2A, 1 1
+LOOK-SEAT 1, 2B, 1 1
+LOOK-SEAT 1, 2C, 1 1
+LOOK-SEAT 1, 2D, 1 1
+LOOK-SEAT 1, 2E, 1 1
+LOOK-SEAT 1, 3A, 1 1
+LOOK-SEAT 1, 3B, 1 1
+LOOK-SEAT 1, 3C, 1 1
+LOOK-SEAT 1, 3D, 1 1
+LOOK-SEAT 1, 3E, 1 1
+LOOK-SEAT 1, 4A, 1 1
+LOOK-SEAT 1, 4B, 1 1
+LOOK-SEAT 1, 4C, 1 1
+LOOK-SEAT 1, 4D, 1 1
+LOOK-SEAT 1, 4E, 1 1
+=REPORT-FORM-END=

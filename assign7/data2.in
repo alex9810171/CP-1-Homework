@@ -1,0 +1,18 @@
+=REQUEST-BEGIN=
+CREATE 12, 1E, Mr. Cool, Taipei, Banqiao
+CREATE 12, 2E, Mr. Cool, Taipei, Zuoying
+DELETE 12, 2E, Mr. Cool, Taipei, Banqiao
+DELETE 12, 2E, Mr. hot, Taipei, Zuoying
+DELETE 12, 2E, Mr. Cool, Taipei, Zuoying
+DELETE 12, 20A, Mr. Cool, Taipei, Banqiao
+CREATE 12, 7A, Mr. Cool, Taipei, Banqiao
+CREATE 12, 7A, Mr. Cool, Banqiao, Taoyuan
+CREATE 12, 7A, Mr. Cool, Taoyuan, Hsinchu
+CREATE 12, 7A, Mr. Cool, Hsinchu, Miaoli
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT 12, 1E, Mr. Cool
+LOOK-SEAT 12, 2E, Mr. Cool
+LOOK-SEAT 12, 7A, Mr. Cool
+=REPORT-FORM-END=

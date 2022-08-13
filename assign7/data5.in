@@ -1,0 +1,12 @@
+=REQUEST-BEGIN=
+CREATE 12, 7F, Mr. Cool, Banqiao, Taoyuan
+CREATE -1, 7A, Mr. Cool, Taoyuan, Hsinchu
+CREATE 12, 7A, Mr. Cool, Banqiao, Taoyuan
+DELETE 12, 7F, Mr. Cool, Banqiao, Taoyuan
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT 12, 7F, Mr. CoCo
+LOOK-SEAT -1, 7A, Mr, yes
+LOOK-SEAT 12, 7A, Mr. Cool
+=REPORT-FORM-END=

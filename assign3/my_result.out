@@ -1,0 +1,6 @@
+ACCEPTED: 50 * 20, 20 * 0, 10 * 0
+ACCEPTED: 50 * 10, 20 * 0, 10 * 0
+ACCEPTED: 50 * 0, 20 * 5, 10 * 0
+ERROR: The Machine is running out of coins!
+ERROR: The Machine is running out of coins!
+ACCEPTED: 50 * 0, 20 * 20, 10 * 10

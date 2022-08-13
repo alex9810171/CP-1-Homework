@@ -1,0 +1,21 @@
+=REQUEST-BEGIN=
+SUCCEED BOOK => 12, 1E, Mr. Cool, Taipei, Banqiao
+SUCCEED BOOK => 12, 2E, Mr. Cool, Taipei, Zuoying
+SUCCEED CANCEL BOOK => 12, 2E, Mr. Cool, Taipei, Banqiao
+FAIL CANCEL BOOK => 12, 2E, Mr. hot, Taipei, Zuoying
+FAIL CANCEL BOOK => 12, 2E, Mr. Cool, Taipei, Zuoying
+FAIL CANCEL BOOK => 12, 20A, Mr. Cool, Taipei, Banqiao
+SUCCEED BOOK => 12, 7A, Mr. Cool, Taipei, Banqiao
+SUCCEED BOOK => 12, 7A, Mr. Cool, Banqiao, Taoyuan
+SUCCEED BOOK => 12, 7A, Mr. Cool, Taoyuan, Hsinchu
+SUCCEED BOOK => 12, 7A, Mr. Cool, Hsinchu, Miaoli
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT =>
+Mr. Cool : Taipei -> Banqiao
+LOOK-SEAT =>
+Mr. Cool : Banqiao -> Zuoying
+LOOK-SEAT =>
+Mr. Cool : Taipei -> Miaoli
+=REPORT-FORM-END=

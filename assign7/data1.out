@@ -1,0 +1,16 @@
+=REQUEST-BEGIN=
+SUCCEED BOOK => 12, 7A, Noel Bao, Taipei, Zuoying
+SUCCEED BOOK => 12, 7B, Noah Bao, Taipei, Zuoying
+SUCCEED BOOK => 12, 7C, Peter Bao, Taipei, Zuoying
+FAIL BOOK => 12, 7A, Zeck Chang, Taoyuan, Tainan
+SUCCEED CANCEL BOOK => 12, 7C, Peter Bao, Taipei, Zuoying
+SUCCEED BOOK => 12, 7C, Peter Bao, Taipei, Taichung
+SUCCEED BOOK => 12, 7C, Greg Wang, Taichung, Zuoying
+=REQUEST-END=
+*-*-*-*-*-*-*-*-*-*
+=REPORT-FORM-BEGIN=
+LOOK-SEAT =>
+Peter Bao : Taipei -> Taichung
+LOOK-SEAT =>
+Greg Wang : Taichung -> Zuoying
+=REPORT-FORM-END=
